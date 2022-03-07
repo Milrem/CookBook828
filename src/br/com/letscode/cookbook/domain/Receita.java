@@ -16,6 +16,8 @@ public class Receita {
     public Receita(String nome, Categoria categoria) {
         this.nome = nome;
         this.categoria = categoria;
+        ingredientes = new ArrayList<>();
+        preparo = new ArrayList<>();
     }
 
     public Receita(Receita origem) {
